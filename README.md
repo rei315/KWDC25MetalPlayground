@@ -3,6 +3,8 @@
 A sample iOS/macOS application demonstrating **alpha-enabled video playback** using **Metal4**.  
 This project is designed as a lightweight reference for developers who want to explore video rendering with YCbCr + Alpha planes on Apple platforms.
 
+This sample project was showcased in the KWDC25 presentation.
+https://speakerdeck.com/rei315/no-shaders-no-worries-lets-talk-about-metal-render-pipeline
 
 ## Development Environment
 
