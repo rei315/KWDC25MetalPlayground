@@ -14,15 +14,9 @@ public enum SideBarItem: String, Identifiable, CaseIterable {
   case hevc
   case hevcMetal4
   case hevcMetal4Performance
-  case helloMetal
-  case helloMetal4
   
   public var title: String {
     switch self {
-    case .helloMetal:
-      "Hello Metal"
-    case .helloMetal4:
-      "Hello Metal4"
     case .hevc:
       "HEVCPlayer"
     case .hevcMetal4:

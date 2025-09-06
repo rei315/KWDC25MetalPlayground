@@ -18,8 +18,6 @@ let package = Package(
       dependencies: [
         "HEVCPlayer",
         "HEVCPlayerMetal4",
-        "HelloMetal",
-        "HelloMetal4",
         "HEVCPlayerMetal4Performance",
         "Shared"
       ]
@@ -38,14 +36,6 @@ let package = Package(
       name: "HEVCPlayerMetal4Performance",
       dependencies: ["Shared"],
       resources: [.process("Shader")]
-    ),
-    .target(
-      name: "HelloMetal",
-      dependencies: ["Shared"],
-    ),
-    .target(
-      name: "HelloMetal4",
-      dependencies: ["Shared"],
     ),
     .target(
       name: "Shared",

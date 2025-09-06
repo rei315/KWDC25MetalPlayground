@@ -38,12 +38,6 @@ struct ContentView: View {
         HEVCPlayerMetal4PerformanceView()
           .edgesIgnoringSafeArea(.all)
           .background(Color.green)
-      case .helloMetal:
-        HelloMetalView()
-          .edgesIgnoringSafeArea(.all)
-      case .helloMetal4:
-        HelloMetal4View()
-          .edgesIgnoringSafeArea(.all)
       }
     }
     .toolbarBackgroundVisibility(.hidden, for: .windowToolbar)
